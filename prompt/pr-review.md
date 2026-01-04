@@ -6,7 +6,7 @@ Review this PR against the specification, then execute unit and functional test 
 CONTEXT (I will attach these with @ in Cursor)
 - Specification / PRD / Acceptance Criteria: @docs:<CLAUDE.md>
 - Relevant architecture / design notes (optional): @file:<.cursor/docs/mvp_monolith_technical_design.md>
-- PR diff / commits: @git:<feature/us-3.2-tenant-provisioning>
+- PR diff / commits: @git:<feature/us-8.1-order-history-aggregation>
 
 PROJECT CONSTRAINTS
 - Follow existing patterns and conventions in the codebase.
