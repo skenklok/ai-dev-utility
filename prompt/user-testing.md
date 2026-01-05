@@ -6,7 +6,7 @@ SPECS & RULES (attach these as context)
 - Implementation spec: @Folders docs/
 
 EXECUTION CAPABILITY
-Use Cursor Agent terminal to run commands and execute tests. If terminal access is restricted, still produce the full test plan + exact commands I should run. (Cursor Agent can run terminal commands when enabled.) 
+Use Agent to run commands and execute tests. If terminal access is restricted, still produce the full test plan + exact commands I should run. (Cursor Agent can run terminal commands when enabled.) 
 
 GOAL
 Perform a spec-driven regression test:
@@ -27,9 +27,7 @@ PROCESS (do in order)
 - Determine: install, lint, build/typecheck, unit tests, and any E2E framework already present (Playwright/Cypress/etc).
 
 3) Run automated regression in layers (fast → realistic)
-A) Install + lint/format + build/typecheck
-B) Unit tests
-C) “As user” tests:
+“As user” tests:
    - If E2E tests already exist: run them and map coverage to the checklist.
    - If NO E2E suite exists: scaffold the smallest E2E harness using the repo’s stack (prefer Playwright or Cypress) and implement tests for ONLY the top critical user journeys from the checklist.
    - Keep selectors stable (prefer data-test/data-testid/data-cy if present). Favor testing workflows over implementation details.

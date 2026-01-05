@@ -9,7 +9,7 @@ CONTEXT (attach these via Cursor @Files & Folders before you start)
 - Implementation specification: @Files & Folders -> docs/
 
 IMPORTANT
-- Follow any repo rules in .cursor/ as the source of truth for how to run tests and how to format output. (Cursor supports project rules and attaching files/folders into context via @ mentions.)  [oai_citation:0‡Cursor](https://cursor.com/docs/context/rules?utm_source=chatgpt.com)
+- Follow any repo rules in .cursor/ as the source of truth for how to run tests and how to format output. (Cursor supports project rules and attaching files/folders into context via @ mentions.)  [oai_citation:0‡Cursor](https://cursor.com/docs/context/rules)
 - Do NOT change production code unless I explicitly say: “apply fixes”.
 - If tests are missing, you may add tests (preferred) but keep changes minimal and consistent with existing patterns.
 
