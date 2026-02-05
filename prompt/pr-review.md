@@ -7,7 +7,7 @@ CONTEXT
 - Specification / PRD / Acceptance Criteria: @CLAUDE.md: prd.json
 - Relevant architecture / design notes (optional): @file:<.cursor/docs/mvp_monolith_technical_design.md>
 - If there are test, make sure the test are meaningfull and testing properly the functionality
-- PR diff / commits: @git:<feature/claude-review-skills>
+- PR diff / commits: @git:<fix/security-issues-audit>
 
 PROJECT CONSTRAINTS
 - Follow existing patterns and conventions in the codebase.
