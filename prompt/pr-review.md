@@ -1,22 +1,24 @@
 You are my senior engineer + QA reviewer.
 
 TASK
-Review this PR against the specification, then execute unit and functional test validation. Produce a reviewer-ready report I can paste into GitHub, with concrete findings and actionable fixes.
+Review again from the last commit this PR against the specification, then execute unit and functional test validation. Produce a reviewer-ready report I can paste into GitHub, with concrete findings and actionable fixes.
 
 CONTEXT
 - Specification / PRD / Acceptance Criteria: @CLAUDE.md: prd.json
 - Relevant architecture / design notes (optional): @file:<.cursor/docs/mvp_monolith_technical_design.md>
 - If there are test, make sure the test are meaningfull and testing properly the functionality
-- PR diff / commits: @git:<fix/security-issues-audit>
+- PR diff / commits: @git:<fix/flipcard-overflow-heroku-build>
 
 PROJECT CONSTRAINTS
 - Follow existing patterns and conventions in the codebase.
+- Follow the previous Agreed feature plan and raise where there is a deviation
 - Do not change production code unless I explicitly say: “apply fixes”.
 - If you create tests, keep them minimal, meaningful, and aligned with existing test style/framework.
 
 WHAT TO DO (follow in order)
 
 1) Understand the spec
+- Follow the previous Agreed feature plan
 - Extract a checklist of requirements / acceptance criteria from the spec.
 - Call out any ambiguity or missing acceptance criteria (but still proceed with best assumptions).
 
